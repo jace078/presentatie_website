@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professionele Webpagina</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Presentatie Webpagina</h1>
+  </header>
+
+  <main>
+    <div class="tabs">
+      <div class="tab" onclick="openTab('tab0')">presentatie</div>
+      <div class="tab" onclick="openTab('tab1')">containers</div>
+      <div class="tab" onclick="openTab('tab2')">flexbox</div>
+      <div class="tab" onclick="openTab('tab3')">navbar</div>
+      <div class="tab" onclick="openTab('tab4')">grid</div>
+      <div class="tab" onclick="openTab('tab5')">Bootstrap</div>
+    </div>
+
+    <div id="tab0" class="tab-content active">
+      <h2>Presentatie</h2>
+      <p>Waar ga ik het over hebben?</p>
+      <p>-   containers </p>
+      <p>-   flexboxes</p>
+      <p>-   navbar</p>
+      <p>-   grid</p>
+      <p>-   bootstrap</p>
+      <div class="content">
+        <div class="image-container">
+          <img src="html_css_js.png" alt="html">
+        </div>
+      </div>
+    </div>
+
+    <div id="tab1" class="tab-content">
+      <h2>Containers</h2>
+      <p>We moesten met CSS verschillende soorten containers maken om alles apart te kunnen bedienen qua kleuren, vorm, padding, etc.</p>
+      <div class="content">
+        <div class="image-container">
+          <img src="containers/Code_containers.png" alt="Code_containers">
+          <img src="containers/Resultaat_containers.png" alt="resultaat_containers">
+        </div>
+      </div>
+    </div>
+
+    <div id="tab2" class="tab-content">
+      <h2>Flexbox</h2>
+      <p>We moesten met CSS een flexbox maken waarbij we logo's en daaronder tekst moesten plaatsen en als je het scherm verkleinde het mee bewoog.</p>
+      <div class="content">
+        <div class="image-container">
+          <img src="flexbox/Code_flexbox.png" alt="Code_flexbox">
+          <img src="flexbox/Resultaat_flexbox.png" alt="resultaat_flexbox">
+        </div>
+      </div>
+    </div>
+
+    <div id="tab3" class="tab-content">
+      <h2>Navbar</h2>
+      <p>Daarin moesten wij een navbar maken die naar 3 verschillende pagina's ging die we zelf moesten maken.</p>
+      <div class="content">
+        <div class="image-container">
+          <img src="receptenlijst/code_1_receptenlijst.png" alt="code_1_receptenlijst">
+          <img src="receptenlijst/code_2_receptenlijst.png" alt="code_2_receptenlijst">
+          <img src="receptenlijst/resultaat_receptenlijst.png" alt="resultaat_receptenlijst">
+        </div>
+      </div>
+    </div>
+
+    <div id="tab4" class="tab-content">
+      <h2>Grid</h2>
+      <p>We moesten een grid maken zodat alle secties goed op de juiste plek kwamen te staan en dat je bij verschillende groten andere kleuren kan selecteren.</p>
+      <div class="content">
+        <div class="image-container">
+          <img src="grid/Code_grid.png" alt="code_grid">
+          <img src="grid/Resultaat_grid.png" alt="resultaat_grid">
+        </div>
+      </div>
+    </div>
+    <div id="tab5" class="tab-content">
+      <h2>Bootstrap</h2>
+      <p>we moesten een kleine opdracht (in mijn geval carousel) maken waarbij we kennis maakten met Bootstrap.</p>
+      <div class="content">
+        <div class="image-container">
+          <img src="bootstrap/code_bootstrap.png" alt="code_bootstrap">
+          <img src="bootstrap/resultaat_bootstrap.png" alt="resultaat_bootstrap">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="scripts.js"></script>
+
+</body>
+</html>

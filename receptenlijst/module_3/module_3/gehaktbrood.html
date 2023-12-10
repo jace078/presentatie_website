@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <title>Gehaktbrood </title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <ul class="tabs">
+        <li class="tab" onclick="openTab('tab1')"><b>Voorgerecht</b></li>
+        <li class="tab" onclick="openTab('tab2')"><b>Hoofdgerecht</b></li>
+        <li class="tab" onclick="openTab('tab3')"><b>Nagerecht</b></li>
+
+    </ul>
+
+    <div id="tab1" class="tab-content active">
+        <h1>Voorgerecht: Tomatensoep</h1>
+        <p>__________________________________________________________________________________________________</p>
+        <h2>Ingrediënten</h2>
+        <li>- 400 gram gepelde tomaat </li>
+        <li>- 1 zakje gesnipperde ui</li>
+        <li>- teen knoflook</li>
+        <li>- olijfolie </li>
+        <li>- water </li>
+        <li>- kookroom</li>
+        <li>- groentebuillonblokje</li>
+
+        <h2>Bereidingswijze</h2>
+        <p>1. Snipper en fruit de ui in een pannetje met 1 el olijfolie.</p>
+        <p>2. Voeg de tomaat toe en eventueel de knoflook en bak deze 5 minuutjes.</p>
+        <p>3. Voeg het hete water en halve bouillonblokje toe en laat een paar minuten koken.</p>
+        <p>4. Pureer de soep met een staafmixer en laat de soep nog even doorkoken. Hoe langer je de soep laat sudderen,
+            hoe smaakvoller hij wordt.</p>
+        <p>5. Voeg naar smaak peper en zout toe.</p>
+        <p>6. Serveer de soep eventueel met (plantaardige) kookroom of (soja) crème fraîche. Ook lekker: met scheutje
+            kokosmelk.</p>
+        <img src="Tomatensoep.webp" alt="tomatensoep">
+    </div>
+
+    <div id="tab2" class="tab-content">
+        <h1>Hoofdgerecht: Gehaktbrood</h1>
+        <p>__________________________________________________________________________________________________</p>
+        <h2>Ingrediënten</h2>
+        <li> 1 rode paprika </li>
+        <li> 1 groene paprika </li>
+        <li> 1 ui</li>
+        <li> 2 tenen knoflook </li>
+        <li> 50 gram bacon </li>
+        <li> 1/2 bosje peterselie</li>
+        <li> 400 gram mager rundergehakt </li>
+        <li> 50 gram paneermeel</li>
+        <li> 1 ei </li>
+        <li> 1 blikje tomatenpuree </li>
+        <li> 1 theelepel tabasco </li>
+        <li> peper </li>
+        <h2>Bereidingswijze</h2>
+        <p>1. Warm de oven voor op 175 graden celcius</p>
+        <p>2. maak de paprika's schoon en snijd ze in kleine stukjes. maak de knoflook en ui schoon en snijd ze in
+            verschillende stukjes. Snij de bacon in kleine reepjes.</p>
+        <p>3.Doe het gehakt,paprika,ui,bacon,peterseolelie,paneermeel,ei,tomatenpuree,tabasco en peper in een kom. Pers
+            de tenen knfolook erboven uit en kneed goeed totdat alle ingredienten zijn gemend.</p>
+        <p>4.Druk het mengsel in een cakevorm en bak deze ongeveer 1 uur in de oven.</p>
+        <p>5.Haal de vorm uit de oven. laat even afkoelen en haal het daarna uit de vorm. Serveer het gehaktbrood op een
+            schotel.</p>
+        <img src="gehaktbrood.jpg" alt="gehaktbroodje">
+    </div>
+
+    <div id="tab3" class="tab-content">
+        <h1>Nagerecht: Sorbet</h1>
+        <p>__________________________________________________________________________________________________</p>
+        <h2>Ingrediënten</h2>
+        <li> limonade siroop met cassissmaak </li>
+        <li> 100 gram blauwe bessen </li>
+        <li> 125 gram aardbeien</li>
+        <li> 100 gram bramen </li>
+        <li> hertog ijssalon aardbeien meringue</li>
+        <li> 300ml appelcider zonder alcohol</li>
+        <li> 4 champagne glazen</li>
+        <h2>Werkwijze</h2>
+        <p>1. Schenk de cassissiroop in de 4 glaze</p>
+        <p>2. Verdeel het fruit erover en schep een bol Hertog Aardbeien Merinque ijs bovenop het fruit.</p>
+        <p>3. Schenk de cider op het fruit en serveer direct.</p>
+        <img src="sorbet.jpg" alt="sorbet">
+    </div>
+
+
+    <script>
+        function openTab(tabId) {
+            var tabs = document.querySelectorAll('.tab-content');
+            for (var i = 0; i < tabs.length; i++) {
+                tabs[i].style.display = 'none';
+            }
+            document.getElementById(tabId).style.display = 'block';
+        }
+    </script>
+</body>
+
+</html>
